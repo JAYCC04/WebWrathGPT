@@ -4,7 +4,7 @@ import openai
 app = Flask(__name__)
 
 # Replace with your actual OpenAI API Key
-openai.api_key = "YOUR-OPENAI-API-KEY"
+openai.api_key = "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"
 
 @app.route('/generate_website', methods=['POST'])
 def generate_website():
